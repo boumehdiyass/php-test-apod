@@ -72,6 +72,7 @@ Execute this command to run tests:
 $ cd php-test-apod/
 $ symfony php bin/phpunit
 ```
+![Picture APOD Page](PictureApodPage.png)
 
 [1]: https://github.com/boumehdiyass/php-test-apod/blob/master/README.md
 [2]: https://getcomposer.org/
@@ -79,3 +80,4 @@ $ symfony php bin/phpunit
 [4]: https://symfony.com/download
 [5]: https://symfony.com/doc/current/configuration/secrets.html
 [6]: https://symfony.com/doc/current/setup/web_server_configuration.html
+
