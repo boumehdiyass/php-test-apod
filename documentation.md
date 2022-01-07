@@ -10,9 +10,9 @@ Requirements
   * SqlLite, MySQL, or PostgreSQL server;
   * Apache Web server
   * [composer][2] must be installed;
-  * and the [usual Symfony application requirements][3].
   * Git must be installed
   * [Symfony CLI][4] is optional
+  * and the [usual Symfony application requirements][3].
 
 Installation
 ------------
@@ -47,7 +47,7 @@ $ symfony composer create-database
 Fetch picture of the day with CLI Command: 
 
 ```bash
-$ symfony console app:apod:fetch --date 2022-01-03
+$ symfony console app:apod:fetch
 ```
 
 Fetch picture of specified day with CLI Command: 
