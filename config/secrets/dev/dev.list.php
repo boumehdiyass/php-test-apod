@@ -2,4 +2,6 @@
 
 return array (
   'APOD_API_KEY' => NULL,
+  'OAUTH_GOOGLE_CLIENT_ID' => NULL,
+  'OAUTH_GOOGLE_CLIENT_SECRET' => NULL,
 );

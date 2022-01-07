@@ -4,36 +4,6 @@
 {% endblock %}
 
 {% block body %}
-	<style>
-		.example-wrapper {
-			margin: 1em auto;
-			max-width: 800px;
-			width: 95%;
-			font: 18px / 1.5 sans-serif;
-		}
-		.example-wrapper code {
-			background: #F5F5F5;
-			padding: 2px 6px;
-		}
-		.image-bloc {
-			width: 60%;
-			margin-left: auto;
-			margin-right: auto;
-			display: block;
-		}
-		.date-bloc {
-			font-style: italic;
-			color: green
-		}
-		.title-one {
-			color: blue
-		}
-		.message-info {
-			font-style: italic;
-			background-color: #a3eef5;
-			padding: 5px;
-		}
-	</style>
 	<div class="example-wrapper">
 		<h1 class="title-one">The picture of the day by the Nasa</h1>
 		{% if picture is defined and picture is not null %}

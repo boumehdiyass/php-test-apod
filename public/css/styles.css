@@ -1,0 +1,47 @@
+.example-wrapper {
+    margin: 1em auto;
+    max-width: 800px;
+    width: 95%;
+    font: 18px / 1.5 sans-serif;
+}
+.example-wrapper code {
+    background: #F5F5F5;
+    padding: 2px 6px;
+}
+.image-bloc {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.date-bloc {
+    font-style: italic;
+    color: green
+}
+.title-one {
+    color: blue
+}
+.message-info {
+    font-style: italic;
+    background-color: #a3eef5;
+    padding: 5px;
+}
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(57, 57, 231);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+ a:hover, a:active {
+    background-color: rgb(57, 57, 231);
+    color: white;
+}
+.center{
+    display: block !important;
+    margin-left: 30%;
+    margin-right: 30%;
+}

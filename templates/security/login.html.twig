@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Log in!
+{% endblock %}
+
+{% block body %}
+	<div class="example-wrapper">
+		{% if error %}
+			<div class="alert alert-danger">
+				{% if error.messageKey is defined %}
+					{{ error.messageKey|trans(error.messageData, 'security') }}
+				{% else %}
+					{{ error|trans }}
+				{% endif %}
+			</div>
+		{% endif %}
+		<h1 class="title-one">Please sign in with your Google Account</h1>
+		<a class="center" href="{{ path('connect_google') }}">Sign in with Google</a>
+	</div>
+{% endblock %}
