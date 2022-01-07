@@ -64,8 +64,8 @@ Tests
 Execute this command to run tests:
 
 ```bash
-$ cd my_project/
-$ ./bin/phpunit
+$ cd php-test-apod/
+$ symfony php bin/phpunit
 ```
 
 [1]: https://github.com/boumehdiyass/php-test-apod/blob/master/README.md
