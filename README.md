@@ -46,3 +46,8 @@ When you finish this challenge, send a link to your repository by email.
 The only constraint is to use PHP (use the version you want) and this Symfony project. You will then use any library you want, any database you want.
 
 And most of all, have fun!
+
+## Documentation 
+Please find the [application documentation link here][1]. 
+
+[1]: https://github.com/boumehdiyass/php-test-apod/blob/master/documentation.md

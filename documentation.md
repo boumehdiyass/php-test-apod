@@ -44,7 +44,7 @@ Create the database :
 $ symfony composer create-database
 ```
 
-Fetch picture of the day with CLI Command: 
+Fetch picture of the current day with CLI Command: 
 
 ```bash
 $ symfony console app:apod:fetch
@@ -53,6 +53,11 @@ $ symfony console app:apod:fetch
 Fetch picture of specified day with CLI Command: 
 ```bash
 $ symfony console app:apod:fetch --date 2022-01-07
+```
+
+You can use fixtures to add pictures to the app:
+```bash
+$ symfony console doctrine:fixtures:load
 ```
 
 Authentication :

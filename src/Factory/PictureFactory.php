@@ -19,7 +19,7 @@ class PictureFactory
      * @return Picture
      * @throws \Exception
      */
-    public function createFromApodArray(array $data): Picture
+    public function createFromApodArray(array $data): ?Picture
     {
         //check if media is a picture
         if ("image" !== $data['media_type']) {

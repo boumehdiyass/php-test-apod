@@ -20,8 +20,11 @@ class UserFactory
      * @return User
      * @throws \Exception
      */
-    public function createFromGoogleUser(GoogleUser $googleUser): User
+    public function createFromGoogleUser(GoogleUser $googleUser): ?User
     {
+        if (!$googleUser->getEmail()) {
+            return null;
+        }
         $user = new User();
         $user->setEmail($googleUser->getEmail());
         $user->setFullname($googleUser->getName());
